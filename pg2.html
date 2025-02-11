@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            max-width: 100%;
+            min-height: 100vh;
+            display: flex;
+
+        }
+.container{
+    
+    
+    margin: auto;
+    max-height: 100%;
+    display: flex;
+    box-shadow: 20px 24px 22px 10px;
+
+
+}
+.container .signin{
+    background-color: rgb(255, 255, 255);
+    width:500px;
+    padding: 100px;
+    border:2px solid white ;
+}
+.container .signin .form{
+    margin: 13px;
+    padding: 6px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 4px;
+    
+}
+.container .signin h1{
+    text-align: center;
+    color: black;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.loginbtn:hover{
+    background-color: black;
+    color: white;
+}
+.loginbtn{
+    background-color: rgb(72, 159, 72);
+    
+    padding: 4px 4px;
+    color: white;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    height: 34px;
+    width: 80px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+
+
+
+}
+.rempas{
+ 
+   
+    padding: 2px 2px 4px 6px;
+    margin: 3px;
+    display: inline-flex;
+}
+.rempas a{
+    text-align: right;
+    text-decoration: none;
+
+    
+}
+.container .secbox{
+    background-color: rgba(255, 0, 68, 0.849);
+    width: 500px;
+    border: 2px solid rgba(255, 0, 68, 0.849); 
+    padding: 90px;
+    margin: 0px;
+}
+.secbox h1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    
+
+}
+.secbox p{
+    text-align: center;
+    color: white;
+    padding: 23px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="signin">
+            <h1>SIGN IN</h1>
+            <div class="form">
+                <label for=""> Username</label>
+                <input type="text" class="form" value=" Enter your username">
+                <label for=""> Password</label>
+                <input type="password" class="form" value="">
+                <input type="button" class="loginbtn" value="sign in">
+            <div class="rempas">
+                <div class="rempas"> <input type="checkbox" name="" id=""> Remember me </div> 
+                <div class="rempas"> <a href=""> Forget password</a></div>
+
+            </div>
+                                       
+                  
+            </div>
+        </div>
+        <div class="secbox">
+<h1>WELCOME TO LOGIN</h1>
+<p>Don't have an account?</p>
+<input type="button" class="loginbtn" value="sign in">
+
+        </div>
+    </div>
+</body>
+</html>
